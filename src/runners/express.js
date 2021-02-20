@@ -27,7 +27,7 @@ function createRunner(req, startTime) {
     ]);
 
     const resource = new event.Resource([
-        req.hostname,
+        'amir - '+req.hostname,
         'express',
         req.method,
     ]);
